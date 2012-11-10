@@ -109,7 +109,6 @@
 			<executions>
 				<execution>
 					<id>assembly</id>
-					<phase>package</phase>
 					<goals>
 						<goal>single</goal>
 					</goals>
@@ -172,6 +171,14 @@
 				</includes>
 				<override>true</override>
 			</configuration>
+			<executions>
+				<execution>
+					<id>github-upload</id>
+					<goals>
+						<goal>upload</goal>
+					</goals>
+				</execution>
+			</executions>
 		</plugin>
 	</plugins>
 	</build>
