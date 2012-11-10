@@ -1,3 +1,9 @@
-language: java 
-install: "mvn -Plinux,64 install -DskipTests=true && mvn -Pwin,32 install -DskipTests=true"
+language: java
+env:
+  matrix:
+	  - OS_NAME: linux
+		  OS_ARCH: 64
+		- OS_NAME: win
+		  OS_ARCH: 32
+install: "mvn -P$OS_NAME,$OS_ARCH install"
 script: ":"
