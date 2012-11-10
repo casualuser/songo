@@ -153,6 +153,25 @@
 				</execution>
 			</executions>
 		</plugin>
+		<plugin>
+			<groupId>com.github.github</groupId>
+			<artifactId>downloads-maven-plugin</artifactId>
+			<configuration>
+				<includes>
+					<include>${project.build.finalName}-${songo.os.name}${songo.os.arch}.*</include>
+				</includes>
+				<override>true</override>
+			</configuration>
+			<executions>
+				<execution>
+					<id>github-upload</id>
+					<phase>deploy</phase>
+					<goals>
+						<goal>upload</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
 	</plugins>
 	</build>
 	<profiles>
