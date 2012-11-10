@@ -5,4 +5,4 @@
 ### Windows requirements
 None
 
-[Download Songo](http://github.com/siasia/songo/downloads)
+### [Download Songo](http://github.com/siasia/songo/downloads)
