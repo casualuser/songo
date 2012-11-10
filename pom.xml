@@ -7,6 +7,7 @@
 	<groupId>songo</groupId>
 	<artifactId>songo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<url>http://github.com/siasia/songo</url>
 
 	<repositories>
 		<repository>
