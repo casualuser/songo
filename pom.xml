@@ -172,15 +172,6 @@
 				</includes>
 				<override>true</override>
 			</configuration>
-			<executions>
-				<execution>
-					<id>github-upload</id>
-					<phase>deploy</phase>
-					<goals>
-						<goal>upload</goal>
-					</goals>
-				</execution>
-			</executions>
 		</plugin>
 	</plugins>
 	</build>
