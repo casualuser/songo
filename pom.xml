@@ -109,6 +109,7 @@
 			<executions>
 				<execution>
 					<id>assembly</id>
+					<phase>package</phase>
 					<goals>
 						<goal>single</goal>
 					</goals>
