@@ -1,5 +1,5 @@
 language: java
-matrix:
+env:
   - OS_NAME: linux
   - OS_NAME: win
 install: "mvn -P$OS_NAME,$OS_ARCH install"
