@@ -1,2 +1,2 @@
 language: java 
-script: "mvn -Plinux,64 package"
+install: "mvn -Plinux,64 package"
