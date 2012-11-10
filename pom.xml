@@ -154,6 +154,15 @@
 			</executions>
 		</plugin>
 		<plugin>
+			<artifactId>maven-deploy-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>default-deploy</id>
+					<phase>none</phase>
+				</execution>
+			</executions>
+		</plugin>
+		<plugin>
 			<groupId>com.github.github</groupId>
 			<artifactId>downloads-maven-plugin</artifactId>
 			<configuration>
