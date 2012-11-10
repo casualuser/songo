@@ -1,5 +1,5 @@
 ## Requirements
-### [Java Runtime Environment](http://java.com)
+[Java Runtime Environment](http://java.com)
 ### Linux only
 * gtk2 `# apt-get install gtk2`
 * libwebkit `# apt-get install libwebkit`
