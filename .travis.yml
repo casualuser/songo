@@ -1,6 +1,8 @@
 language: java
 env:
   - OS_NAME: linux
+    OS_ARCH: 64
   - OS_NAME: win
+    OS_ARCH: 32
 install: "mvn -P$OS_NAME,$OS_ARCH install"
 script: ":"
