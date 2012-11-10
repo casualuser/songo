@@ -2,4 +2,3 @@ language: java
 install:
   - mvn -Plinux,64 install -DskipTests=true
 	- mvn -Pwin,32 install -DskipTests=true
-script: ""
