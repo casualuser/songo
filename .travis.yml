@@ -1,8 +1,11 @@
 language: java
 env:
-  - OS_NAME: linux
-    OS_ARCH: 64
-  - OS_NAME: win
-    OS_ARCH: 32
-install: "mvn -P$OS_NAME,$OS_ARCH install"
+  global:
+    - secure: "UPpUIbJ7GI+IuuQYbFhIsDuPENfj9jlgjNW9oopSy5RwVpkJvTDPohKIG2g4\nrZ5SVlYFiJFuUxKBRXnYmDUdxdBbJk9QkT4BtNHiup0F+qHx+JA6mUJY2nPz\neXNw7gfVptOmxal4+SzQBs+K29mODl+MiZZYeJQhxOWzNKqlvtc="
+  matrix:
+    - OS_NAME: linux
+      OS_ARCH: 64
+    - OS_NAME: win
+      OS_ARCH: 32
+install: "echo $GITHUB_TOKEN"
 script: ":"
